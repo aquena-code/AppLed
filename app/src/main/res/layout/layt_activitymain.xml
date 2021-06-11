@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:background="#1188ff"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:orientation="horizontal"
+            android:background="#005544"
+            android:id="@+id/frly_Panel"
+            />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:id="@+id/frly_MenuB"
+            android:background="#053c64"
+            />
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#053c64"
+            android:id="@+id/frly_MenuA"
+            >
+            <!--
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/frmt_MenuA"
+                android:name="com.software.alv.proy_3.Class_frmtMenuA"
+                />
+            -->
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>
